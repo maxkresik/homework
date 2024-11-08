@@ -1,0 +1,7 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+"Test 2 (Thread users 5000, Ramp up 3, Loop count Infinity, Duration 60 sec):GET -characters",45188,277,281,302,311,494,5,1955,0.000%,746.44025,18468.18,94.03
+"Test 2 (Thread users 5000, Ramp up 3, Loop count Infinity, Duration 60 sec):GET -character/id",45266,268,281,301,308,337,2,362,0.000%,747.83988,190.61,94.94
+"Test 2 (Thread users 5000, Ramp up 3, Loop count Infinity, Duration 60 sec):POST -character",45064,268,280,300,307,338,1,362,0.000%,744.68718,192.72,169.45
+"Test 2 (Thread users 5000, Ramp up 3, Loop count Infinity, Duration 60 sec):PUT -character/id",44836,270,281,301,310,339,2,361,0.000%,740.89497,203.31,180.88
+"Test 2 (Thread users 5000, Ramp up 3, Loop count Infinity, Duration 60 sec):DELETE -character/id",44642,271,281,302,310,338,4,360,0.000%,737.93309,179.44,155.66
+TOTAL,224996,271,281,301,309,341,1,1955,0.000%,3716.48497,19233.32,694.68
